@@ -47,12 +47,14 @@ In this project, the following steps were performed to clean and preprocess the 
 These data cleaning steps aimed to ensure the quality and consistency of the dataset and prepare it for subsequent exploratory data analysis (EDA) and model building phases.
 
 ## Exploratory Data Analysis (EDA)
-Provide an overview of the exploratory data analysis conducted on your dataset. Describe the visualizations, statistical analyses, or data exploration techniques used to gain insights into the data. Highlight any interesting patterns, correlations, or observations discovered during the EDA phase.
+Various graphs and charts are created to better understand the dataset. Below are the highlights from graphs and interpretations.
 
-Model Building
+
+
+## Model Building
 Outline the process of building your machine learning model. Describe the algorithms, techniques, or frameworks used for training and evaluating the model. Include relevant code snippets or configuration details. If applicable, mention any hyperparameter tuning or model selection strategies employed.
 
-Results
+## Results
 Present the results and performance metrics of your trained model. Include any visualizations, tables, or graphs that demonstrate the model's accuracy, precision, recall, or other relevant evaluation metrics. Discuss the significance of the results and how they align with your project objectives.
 
 
