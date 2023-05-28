@@ -14,17 +14,39 @@
 3. Exploratory Data Analysis (EDA)
 4. Model Building
 5. Results
-6. Usage
-7. Contributing
-8. License
 
 ## Code and Resources Used
+This data science project was implemented using the following code and resources:
 
+**Programming Language:** Python 3.9
 
-Data Cleaning
-Explain the steps you took to clean and preprocess your data. Describe any techniques, tools, or algorithms used for handling missing values, outliers, or inconsistent data. You can also mention any feature engineering or transformation performed during the data cleaning process.
+**IDE/Editor:** PyCharm Community Edition
 
-Exploratory Data Analysis (EDA)
+**Libraries and Packages:**
+pandas (version 1.3.0)
+numpy (version 1.21.0)
+matplotlib (version 3.4.2)
+seaborn (version 0.11.1)
+scikit-learn (version 0.24.2)
+statsmodels (version 0.12.2)
+
+The project code utilizes various Python libraries for data cleaning, exploratory data analysis, and model building tasks. The versions of the libraries used during development are mentioned above.
+
+You can find the complete code implementation, including data cleaning scripts, EDA notebooks, and model building files, in the GitHub repository.
+
+## Data Cleaning
+In this project, the following steps were performed to clean and preprocess the data:
+
+* Checking the shape of the dataset. Providing an overview of dataset's dimensions, including the number of rows and columns.
+* Removing duplicate rows. Duplicate rows, if any, were identified and removed from the dataset to ensure data integrity and avoid redundancy.
+* Inspecting the dataset information, gaining insights into the data types of each column and identify any missing values or inconsistencies.
+* To facilitate analysis, the prices were converted to USD by dividing the original price values by the current exchange rate.
+* Histograms were created to visualize the distribution of three numerical variables in the dataset. The histograms revealed that the distributions were right-skewed, indicating the presence of outliers. Outliers are handled by filling with appropriate values.
+* Checking descriptive statistics. Providing a summary of the numerical variables' descriptive statistics, including count, mean, standard deviation, minimum, quartiles, and maximum values.
+
+These data cleaning steps aimed to ensure the quality and consistency of the dataset and prepare it for subsequent exploratory data analysis (EDA) and model building phases.
+
+## Exploratory Data Analysis (EDA)
 Provide an overview of the exploratory data analysis conducted on your dataset. Describe the visualizations, statistical analyses, or data exploration techniques used to gain insights into the data. Highlight any interesting patterns, correlations, or observations discovered during the EDA phase.
 
 Model Building
@@ -33,16 +55,4 @@ Outline the process of building your machine learning model. Describe the algori
 Results
 Present the results and performance metrics of your trained model. Include any visualizations, tables, or graphs that demonstrate the model's accuracy, precision, recall, or other relevant evaluation metrics. Discuss the significance of the results and how they align with your project objectives.
 
-Usage
-Provide instructions on how to use or interact with your project. Explain any command-line interfaces, APIs, or web interfaces that you have developed. Include examples or code snippets to showcase the usage of your project.
 
-Contributing
-Specify guidelines for others who wish to contribute to your project. Explain how they can set up the development environment, submit bug reports, or propose new features. Provide contact information or links to the issue tracker or project repository for collaboration.
-
-License
-Specify the license under which your project is released. Mention any restrictions or permissions associated with the license.
-
-Acknowledgements
-(Optional) Give credit to any individuals, organizations, or resources that have influenced or supported your project.
-
-Feel free to fill in the details specific to your project within each section, and expand or modify the blueprint as needed to best suit your requirements.
