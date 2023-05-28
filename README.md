@@ -52,7 +52,10 @@ Various graphs and charts are created to better understand the dataset. Below ar
 
 
 ## Model Building
-Outline the process of building your machine learning model. Describe the algorithms, techniques, or frameworks used for training and evaluating the model. Include relevant code snippets or configuration details. If applicable, mention any hyperparameter tuning or model selection strategies employed.
+* Categorical variables are turned into dummy variables. 
+* Dataset split into train and test sets. 
+* Multiple linear regression model is created using statsmodels. Adj. R-squared value is 0.823, which means that approximately 83.6% of the variability in the dependent variable can be explained by the independent variables included in the model. Prob (F-statistic): This is the p-value associated with the F-statistic. A low p-value suggests that the observed F-statistic is unlikely to occur by chance, further supporting the statistical significance of the regression model. Standard Errors: These indicate the standard deviation of the estimated coefficients. Larger standard errors suggest greater uncertainty in the coefficient estimates. P>|t|: These p-values represent the probability that the corresponding coefficient is not significantly different from zero. Lower p-values (typically below a predetermined significance level, such as 0.05) suggest that the coefficient is statistically significant.
+
 
 ## Results
 Present the results and performance metrics of your trained model. Include any visualizations, tables, or graphs that demonstrate the model's accuracy, precision, recall, or other relevant evaluation metrics. Discuss the significance of the results and how they align with your project objectives.
