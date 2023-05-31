@@ -1,7 +1,7 @@
 # DATA SCIENCE LAPTOP PRICE ESTIMATOR
 
 ## Project Overview
-* Created a tool to precdict laptop prices.
+* Created a tool to predict laptop prices.
 * Kaggle Laptop Prices Dataset is used.
 * Data is cleaned, exploratory data analysis is done.
 * Optimized Linear, Lasso, Decision Tree and Random Forest Regressors using GridSearchCV to create the best model.
@@ -34,6 +34,8 @@ statsmodels (version 0.12.2)
 The project code utilizes various Python libraries for data cleaning, exploratory data analysis, and model building tasks. The versions of the libraries used during development are mentioned above.
 
 You can find the complete code implementation, including data cleaning scripts, EDA notebooks, and model building files, in the GitHub repository.
+
+Laptop Prices Dataset initially has 823 rows and 19 columns. It contains information on the brand, processor brand, processor generation, ram, ssd, hdd, os, graphic card, weight, warranty. touchscreen, MS Office, rating, number of ratings, number of reviews and price of a laptop.
 
 ## Data Cleaning
 In this project, the following steps were performed to clean and preprocess the data:
